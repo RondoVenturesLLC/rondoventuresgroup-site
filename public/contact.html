@@ -54,7 +54,7 @@
           Something went wrong. Please try again or email us directly.
         </div>
 
-        <form action="/api/contact" method="POST" class="form-wrap" style="max-width:none;">
+        <form action="https://formspree.io/f/xbdqeora" method="POST" class="form-wrap" style="max-width:none;">
           <div class="form-row">
             <div class="form-group">
               <label class="form-label" for="name">Name <span style="color:var(--rose);">*</span></label>
@@ -135,9 +135,6 @@ document.querySelectorAll('.nav-links a').forEach(a => {
 document.getElementById('nav-toggle').addEventListener('click', () => {
   document.getElementById('nav-links').classList.toggle('open');
 });
-const p = new URLSearchParams(location.search);
-if (p.get('sent') === '1') document.getElementById('msg-success').style.display = 'block';
-if (p.get('error'))        document.getElementById('msg-error').style.display   = 'block';
 </script>
 </body>
 </html>
