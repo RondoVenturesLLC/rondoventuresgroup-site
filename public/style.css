@@ -161,6 +161,7 @@ nav {
 .section-black .label       { color: rgba(255,255,255,0.5); }
 .section-black .heading     { color: #fff; }
 .section-black .body-text   { color: rgba(255,255,255,0.65); }
+.section-black .grad-text   { color: #4ade80; }
 
 /* restore dark text inside spotlight cards on navy sections */
 .section-black .spotlight .label     { color: var(--blue); }
