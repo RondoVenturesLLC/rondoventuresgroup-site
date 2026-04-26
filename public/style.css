@@ -161,6 +161,11 @@ nav {
 .section-black .heading     { color: #fff; }
 .section-black .body-text   { color: rgba(255,255,255,0.65); }
 
+/* restore dark text inside spotlight cards on navy sections */
+.section-black .spotlight .label     { color: var(--blue); }
+.section-black .spotlight .heading   { color: var(--navy); }
+.section-black .spotlight .body-text { color: var(--text-2); }
+
 .section-inner        { max-width: var(--max-w); margin: 0 auto; }
 .section-inner-narrow { max-width: 760px; margin: 0 auto; }
 
