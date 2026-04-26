@@ -10,6 +10,7 @@
   --navy: #1A2744;
   --blue: #2D6BBF;
   --teal: #2D6BBF;
+  --green: #1B6B3F;
   --rose: #AD4B71;
   --grad: linear-gradient(135deg, #38b3cc 0%, #d1d4ad 36%, #ad4b71 69%, #432841 100%);
   --border: #E2E8F0;
@@ -113,7 +114,7 @@ nav {
   left: 0;
   right: 0;
   height: 2px;
-  background: var(--grad);
+  background: var(--green);
   border-radius: 2px;
 }
 
@@ -149,7 +150,7 @@ nav {
 .btn-lg  { font-size: 15px; padding: 15px 34px; border-radius: 8px; }
 
 .btn-primary  { background: var(--navy); color: #fff; }
-.btn-grad     { background: var(--grad); color: #fff; }
+.btn-grad     { background: var(--green); color: #fff; }
 .btn-outline  { background: transparent; color: var(--navy); border: 1px solid var(--navy); }
 .btn-outline:hover { background: var(--navy); color: #fff; opacity: 1; transform: none; }
 
@@ -194,7 +195,7 @@ nav {
   display: block;
   width: 40px;
   height: 3px;
-  background: var(--grad);
+  background: var(--green);
   border-radius: 2px;
   margin-bottom: 24px;
 }
@@ -209,10 +210,7 @@ nav {
 .body-text + .body-text { margin-top: 18px; }
 
 .grad-text {
-  background: var(--grad);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--green);
 }
 
 /* ── HERO ── */
@@ -225,6 +223,7 @@ nav {
 .page-hero .hero-headline { color: #fff; }
 .page-hero .hero-sub   { color: rgba(255,255,255,0.72); }
 .page-hero .hero-tagline  { color: #38b3cc; }
+.page-hero .grad-text  { color: #4ade80; }
 .page-hero .btn-outline {
   color: #fff;
   border-color: rgba(255,255,255,0.35);
@@ -295,10 +294,7 @@ nav {
   font-weight: 700;
   letter-spacing: 2px;
   margin-bottom: 18px;
-  background: var(--grad);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--green);
 }
 
 .card-title {
@@ -333,7 +329,7 @@ nav {
   left: 10%;
   right: 10%;
   height: 2px;
-  background: var(--grad);
+  background: var(--green);
   opacity: 0.4;
 }
 
@@ -366,7 +362,7 @@ nav {
   position: absolute;
   inset: -2px;
   border-radius: 50%;
-  background: var(--grad);
+  background: var(--green);
   z-index: -1;
 }
 
@@ -383,10 +379,7 @@ nav {
   font-family: var(--font-d);
   font-size: 15px;
   font-weight: 700;
-  background: var(--grad);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--green);
   position: relative;
   z-index: 1;
 }
@@ -433,7 +426,7 @@ nav {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: var(--grad);
+  background: var(--green);
 }
 
 /* ── FORMS ── */
